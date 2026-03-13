@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Amiamie";
+  src: url("../../content//fonts/amiamie/ttf/Amiamie-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Selectric";
+  src: url("../../content/fonts/selectric/OTF/SelectricRoman.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Amiamie", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+a {
+  color: #2A2520;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Selectric", serif;
+  line-height: 1.08;
+  font-size: 80px;
+  font-weight: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 10;
+}
+.header__container {
+  margin: 20px 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo img {
+  width: 60px;
+  height: auto;
+}
+.header__nav__list {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.header__nav__list__item {
+  font-size: 14px;
+}
+.header__nav__list__item a {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  opacity: 0.55;
+  transition: opacity 0.3s;
+}
+.header__nav__list__item a:hover {
+  opacity: 1;
+}
+.header__nav__list__link {
+  margin-right: 3px;
+}
+.header__nav__list__link fa-arrow-right {
+  font-weight: 100;
+}
+
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(98deg, #C4C8D1 55%, #9EB0DA 55%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero__wrapper {
+  width: 100%;
+  padding: 70px 72px 30px 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.hero__content__subtitle {
+  color: #6B5122;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 28px;
+  font-size: 14px;
+}
+.hero__content__title {
+  margin-bottom: 20px;
+}
+.hero__content__title span {
+  color: #6B5122;
+  font-style: italic;
+}
+.hero__content__text {
+  line-height: 1.8;
+  margin-bottom: 52px;
+}
+.hero__content__cta {
+  background-color: #6B5122;
+  color: white;
+  padding: 18px 44px;
+  transition: color 0.3s ease;
+}
+.hero__content__cta:hover {
+  background-color: #EA6016;
+}
+.hero__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 80px;
+}
+.hero__image__container {
+  position: relative;
+  width: fit-content;
+}
+.hero__image__container img {
+  width: 400px;
+  height: auto;
+  display: block;
+}
+.hero__image__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 28px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  color: white;
+}
+.hero__image__caption__text {
+  font-family: "Selectric", serif;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1.55;
+  margin-bottom: 7px;
+}
+.hero__image__caption__info {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.hero__info {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.hero__info__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 72px;
+}
+.hero__info__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+.hero__info__container__card {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-right: 36px;
+  text-align: center;
+}
+.hero__info__container__card span {
+  font-family: "Selectric", serif;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+.hero__info__container__card p {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 12px;
+  opacity: 0.5;
+}
+.hero__info__text {
+  display: flex;
+}
+.hero__info__text p {
+  color: #2A2520;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+/*# sourceMappingURL=style.css.map */

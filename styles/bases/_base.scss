@@ -1,0 +1,23 @@
+@use '../abstract/var';
+
+body {
+  font-family: var.$text-font;
+  font-size: var.$size-text;
+  margin: 0 auto;
+}
+
+a{
+    color: var.$encre;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-family: var.$title-font;
+    line-height: 1.08;
+    font-size: 80px;
+    font-weight: 100;
+}
