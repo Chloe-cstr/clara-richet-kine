@@ -15,8 +15,14 @@
             <div class="header__logo">
                 <img src="./content/images/logo_clara_richet_kine.png" alt="Logo de Clara Richet Kinésithérapeute à Toulouse">
             </div>
+
+            <button class="header__burger" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
     
-            <div class="header__nav">
+            <div class="header__nav" id="main-nav">
                 <ul class="header__nav__list">
                     <li class="header__nav__list__item"> 
                         <a href="">La séance</a>
@@ -64,8 +70,10 @@
                         alt="Séance de kiné faites par Clara Richet, kiné à Toulouse"
                     >
                     <div class="hero__image__caption">
-                    <p class="hero__image__caption__text">Le corps a toutes les ressources. <br> Il attend juste qu'on lui fasse de la place.</p>
-                    <p class="hero__image__caption__info">Clara Richet · Kinésithérapeute Spécialisée · Thérapie Globale du corps & Régulation du Système nerveux pour une expérience optimale. </p>
+                    <p class="hero__image__caption__text">Le corps dispose de toutes les ressources.</p>
+                    <p class="hero__image__caption__info">
+                        CLARA RICHET · KINÉSITHÉRAPEUTE SPÉCIALISÉE · MASSAGE THÉRAPEUTIQUE · YOGA THÉRAPIE <br>
+                        JE T'INVITE À UNE EXPERIENCE INTÉGRATIVE, CELLE QUI MÈNE À UNE MEILLEURE CONNAISSANCE DE SOI</p>
                     </div>
                 </div>
             </div>
@@ -134,9 +142,10 @@
     
                 <article class="profiles__card">
                     <span class="profiles__card__number">04</span>
-                    <h3 class="profiles__card__title">Celui·celle qui veut entrer dans le flow</h3>
+                    <h3 class="profiles__card__title">Celui·celle qui veut expérimenter l'état de flow</h3>
                     <p class="profiles__card__text">
-                        Tu connais cet état où tout devient fluide, où le corps et l'esprit s'alignent. Ce soin est conçu pour t'y amener — et t'apprendre à y revenir.
+                        Tu connais cet état où tout s'aligne, où le corps et l'esprit dialoguent sans friction. Ce soin t'y mène progressivement. Grâce à la neuroplasticité, chaque exposition renforce cet apprentissage.
+                    </p>
                 </article>
     
             </div>
@@ -177,7 +186,7 @@
                             <div class="approach__item__label">Explorer</div>
                             <div class="approach__item__content">
                                 <h3 class="approach__item__content__title">Le mouvement, le toucher, la respiration</h3>
-                                <p class="approach__item__content__text">Expérimenter ces outils comme des leviers de transformation — kinésithérapie, massage thaï, yoga.</p>
+                                <p class="approach__item__content__text">Expérimenter ces outils comme des leviers de transformation — kinésithérapie, massage thérapeutique, yoga.</p>
                             </div>
                     </div>
         
@@ -194,12 +203,14 @@
 
             <div class="approach__right">
                 <div class="approach__info">
-                    <blockquote class="approach__quote">
+                    <h4 class="approach__info__subtitle">Effet dans le temps</h4>
+                    <p class="approach__info__text">La régularité dans la pratique modifie progressivement la façon dont le corps gère le stress et récupère. C’est là que les vrais changements s’installent.</p>
+                    <blockquote class="approach__info__quote">
                         Mon rôle n’est pas de « faire à la place de », mais de créer des espaces où tu peux ralentir, explorer, et redevenir acteur de ton mieux-être.
                     </blockquote>
-                    <div class="approach__intro">
+                    <div class="approach__info__intro">
                         <p>Je suis une guide, une accompagnante — pour permettre à chaque personne de créer une boîte à outils adaptée à ses contraintes de vie. Pour se soulager de douleurs, apprendre à utiliser son corps, mieux se connaître.</p>
-                        <p>On part d’une problématique, et à partir de là on apprend à se connaître en utilisant plusieurs techniques : <span class="italic">kinésithérapie, massage thaï, yoga, respiration.</span></p>
+                        <p>On part d’une problématique, et à partir de là on apprend à se connaître en utilisant plusieurs techniques : <span class="italic"> Kinésithérapie, massage thérapeutique, Yoga.</span></p>
                     </div>
                 </div>
             </div>
@@ -210,8 +221,7 @@
     <section class="banner">
         <div class="banner__wrapper">
             <p class="banner__text">
-                Ce n'est pas une réparation rapide. <br>
-                <span class="italic">C'est une invitation à l'exploration de son propre potentiel.</span>
+                C'est une invitation à l'exploration de son propre potentiel.
             </p>
         </div>
     </section>
@@ -222,7 +232,7 @@
             
             <header class="session__header">
                 <span class="session__header__subtitle">La séance</span>
-                <h2 class="session__header__title">Comment se déroule une Expérience Optimale.</h2>
+                <h2 class="session__header__title">Comment se déroule l'expérience.</h2>
             </header>
     
             <div class="session__steps">
@@ -232,7 +242,7 @@
                     <div class="session__item__content">
                         <h3 class="session__item__content__title">On commence par t'écouter</h3>
                         <p class="session__item__content__text">
-                            Quelques minutes pour comprendre ce que tu traverses — physiquement, énergétiquement, dans ton quotidien. Une vraie conversation pour orienter le soin vers ce dont tu as réellement besoin ce jour-là.
+                            Quelques minutes pour comprendre ce que tu traverses. Une vraie conversation pour orienter le soin vers ce dont tu as réellement besoin ce jour-là.
                         </p>
                         <span class="session__item__content__badge">Échange & bilan</span>
                     </div>
@@ -243,7 +253,7 @@
                     <div class="session__item__content">
                         <h3 class="session__item__content__title">Massage thérapeutique · Régulation du système nerveux</h3>
                         <p class="session__item__content__text">
-                            Un soin qui croise kinésithérapie et massage thaï, guidé par la connaissance du système nerveux. Le toucher est précis, adapté à ce que tu es ce jour-là. La respiration accompagne naturellement le travail pour permettre un relâchement en profondeur.
+                            Un soin qui croise kinésithérapie et massage thaï, guidé par la connaissance du système nerveux. Le toucher est précis, adapté à toi. La respiration accompagne naturellement le travail pour permettre un relâchement en profondeur.
                         </p>
                         <span class="session__item__content__badge">Thérapie globale du corps</span>
                     </div>
@@ -254,7 +264,7 @@
                     <div class="session__item__content">
                         <h3 class="session__item__content__title">Yoga thérapie & routine personnalisée</h3>
                         <p class="session__item__content__text">
-                            Quelques mouvements doux pour intégrer ce que le corps vient de traverser. On construit ensemble une petite routine à emporter — quelques minutes par jour pour prolonger les effets et nourrir ton énergie entre les séances.
+                            Quelques mouvements doux pour intégrer ce que le corps vient de traverser. On construit ensemble une petite routine à emporter — quelques minutes par jour pour prolonger les effets et devenir acteur de ton bien-être.
                         </p>
                         <span class="session__item__content__badge">Intégration & autonomie</span>
                     </div>
@@ -281,74 +291,15 @@
             
             <div class="gallery__item">
                 <img src="./content/images/seance_kine_toulouse.JPG" alt="Massage Thaï et Stretching" class="gallery__img">
-                <div class="gallery__caption">
-                    <span class="gallery__text">Massage Thaï · Stretching</span>
-                </div>
             </div>
     
             <div class="gallery__item">
                 <img src="./content/images/seance_kine_clara_richet.JPG" alt="Thérapie manuelle régulation SNA" class="gallery__img">
-                <div class="gallery__caption">
-                    <span class="gallery__text">Thérapie manuelle · Régulation SNA</span>
-                </div>
             </div>
     
         </div>
     </section>
 
-    <!-- SECTION 7 -->
-    <section class="how">
-        <div class="how__wrapper">
-            
-            <div class="how__header">
-                <span class="how__header__subtitle">Comment ça fonctionne</span>
-                <h2 class="how__header__title">Des soins qui s'appuient sur ce que le corps sait déjà faire.</h2>
-                <p class="how__header__intro">
-                    Le corps a des ressources extraordinaires pour se réguler, récupérer et se réorganiser. Le rôle du soin, c’est de créer les conditions pour que tout cela puisse se mettre en mouvement.
-                </p>
-            </div>
-    
-            <div class="how__grid">
-                
-                <article class="how__card">
-                    <span class="how__card__label">Régulation de la douleur</span>
-                    <h3 class="how__card__title">Moins de tension, moins de douleur</h3>
-                    <p class="how__card__text">Un toucher précis envoie un signal au cerveau qui module la perception douloureuse. La douleur chronique n'est pas une fatalité — c'est souvent un message que le corps attend qu'on écoute.</p>
-                </article>
-    
-                <article class="how__card">
-                    <span class="how__card__label">Système nerveux</span>
-                    <h3 class="how__card__title">Un reset en profondeur</h3>
-                    <p class="how__card__text">Le toucher lent active le système nerveux parasympathique — celui de la récupération. Le corps sort de l'état d'alerte et retrouve un espace de calme réel, durable.</p>
-                </article>
-    
-                <article class="how__card">
-                    <span class="how__card__label">Tissu conjonctif</span>
-                    <h3 class="how__card__title">La souplesse retrouvée</h3>
-                    <p class="how__card__text">Les tensions profondes répondent à une pression douce et soutenue. Le corps se relâche à son propre rythme, sans forcer — et ça change tout.</p>
-                </article>
-    
-                <article class="how__card">
-                    <span class="how__card__label">Conscience corporelle</span>
-                    <h3 class="how__card__title">Mieux habiter son corps</h3>
-                    <p class="how__card__text">Le massage réveille les capteurs sensoriels dans les muscles et les articulations. Le cerveau réécrit sa carte du corps — et les vieilles compensations se défont naturellement.</p>
-                </article>
-    
-                <article class="how__card">
-                    <span class="how__card__label">Effet dans le temps</span>
-                    <h3 class="how__card__title">Ce qui se construit en profondeur</h3>
-                    <p class="how__card__text">Un soin régulier modifie progressivement la façon dont le corps gère le stress et récupère. C’est là que les vrais changements s’installent.</p>
-                </article>
-    
-                <article class="how__card">
-                    <span class="how__card__label">Co-régulation du système nerveux</span>
-                    <h3 class="how__card__title">Le soin commence avant le toucher</h3>
-                    <p class="how__card__text">Le système nerveux autonome se régule par contact avec celui d'une autre personne. Une présence calme et ancrée crée les conditions dans lesquelles le corps peut s’autoriser à relâcher.</p>
-                </article>
-    
-            </div>
-        </div>
-    </section>
 
     <!-- SECTION 7 -->
     <section class="pricing">
@@ -373,15 +324,14 @@
                         
                         <div class="pricing__card__price">
                             <div class="pricing__card__price__content">
-                                <span class="currency">€</span>80
+                                <span class="currency">€</span>90
                             </div>
                             <span class="duration">la séance · 1h</span>
                         </div>
     
                         <ul class="pricing__card__features">
                             <li>Bilan rapide en début de séance</li>
-                            <li>Massage thérapeutique adapté à ton état du jour</li>
-                            <li>Kinésithérapie + massage thaï combinés</li>
+                            <li>Massage thérapeutique adapté à ton état du jour ou mise en place d'un programme adapté à tes besoins</li>
                             <li>Studio entièrement privé · Toulouse centre</li>
                         </ul>
     
@@ -398,17 +348,17 @@
                         
                         <div class="pricing__card__price">
                             <div class="pricing__card__price__content">
-                                <span class="currency">€</span>220
+                                <span class="currency">€</span>350
                             </div>
-                            <span class="sub-price">Bilan + 2 séances + 1 massage thaï · au lieu de 240€</span>
+                            <span class="sub-price">Bilan + 2 séances + 1 massage thaï · au lieu de 360€</span>
                         </div>
     
                         <ul class="pricing__card__features">
                             <li>1 séance bilan — analyse de tes contraintes & objectifs</li>
                             <li>2 séances de suivi adaptées à ton profil</li>
-                            <li>1 massage thaï — relâchement profond</li>
+                            <li>1 massage thérapeutique — relâchement profond</li>
                             <li>Création d'une routine personnalisée</li>
-                            <li>Suivi continu avec Clara · studio privé</li>
+                            <li>Suivi continu · studio privé</li>
                         </ul>
     
                         <a href="#" class="pricing__card__button pricing__card__button--full">Réserver mon pack</a>
@@ -431,10 +381,9 @@
                         <ul class="pricing__card__features">
                             <li>6 séances rythmées selon ta progression</li>
                             <li>Éducation thérapeutique personnalisée</li>
-                            <li>Yoga thérapie intégrée à chaque séance</li>
-                            <li>Routine évolutive — quelques minutes par jour</li>
-                            <li>Suivi continu entre les séances</li>
-                            <li>Studio privé · Clara dédiée à ton parcours</li>
+                            <li>Yoga thérapie · Routine évolutive · Suivi continu entre les séances sur le canal de ton choix </li>
+                            <li>Massage thérapeutique</li>
+                            <li>Studio privé</li>
                         </ul>
     
                         <a href="#" class="pricing__card__button pricing__card__button--outline-orange">Commencer mon expérience</a>
@@ -485,6 +434,45 @@
     
         </div>
     </footer>
+
+    <script>
+        const burgerButton = document.querySelector('.header__burger');
+        const header = document.querySelector('.header');
+        const navLinks = document.querySelectorAll('.header__nav a');
+
+        if (burgerButton && header) {
+            const closeMenu = () => {
+                burgerButton.setAttribute('aria-expanded', 'false');
+                burgerButton.setAttribute('aria-label', 'Ouvrir le menu');
+                header.classList.remove('header--menu-open');
+                document.body.classList.remove('menu-open');
+            };
+
+            burgerButton.addEventListener('click', () => {
+                const isOpen = burgerButton.getAttribute('aria-expanded') === 'true';
+                burgerButton.setAttribute('aria-expanded', String(!isOpen));
+                burgerButton.setAttribute('aria-label', isOpen ? 'Ouvrir le menu' : 'Fermer le menu');
+                header.classList.toggle('header--menu-open', !isOpen);
+                document.body.classList.toggle('menu-open', !isOpen);
+            });
+
+            navLinks.forEach((link) => {
+                link.addEventListener('click', closeMenu);
+            });
+
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 1024) {
+                    closeMenu();
+                }
+            });
+
+            window.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape') {
+                    closeMenu();
+                }
+            });
+        }
+    </script>
 
 </body>
 </html>

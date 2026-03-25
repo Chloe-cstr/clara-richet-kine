@@ -28,3 +28,30 @@ h2{
     line-height: 1.15;
     font-weight: 100;
 }
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 64px;
+        line-height: 1.12;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 680px) {
+    body {
+        font-size: var.$size-text-mobile;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 1.18;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+}
